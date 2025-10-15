@@ -3,6 +3,9 @@ name: Deploy Q-CON Cost Compare
 on:
   push:
     branches: ["main"]
+permissions:
+  contents: write
+
 
 jobs:
   build:
